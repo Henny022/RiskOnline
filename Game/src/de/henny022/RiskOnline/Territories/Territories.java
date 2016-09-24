@@ -16,4 +16,6 @@ public class Territories
     public static Territory ALBERTA = new Territory(TerritoryEnum.ALBERTA, "Alberta",
             Arrays.asList(TerritoryEnum.ALASKA, TerritoryEnum.NORTH_WEST_TERRITORY, TerritoryEnum.ONTARIO, TerritoryEnum.WESTERN_UNITED_STATES));
 
+    public static Territory ONTARIO = new Territory(TerritoryEnum.ONTARIO, "Ontario",
+            Arrays.asList(TerritoryEnum.ALBERTA, TerritoryEnum.NORTH_WEST_TERRITORY, TerritoryEnum.QUEBEC, TerritoryEnum.WESTERN_UNITED_STATES, TerritoryEnum.EASTERN_UNITED_STATES, TerritoryEnum.GREENLAND));
 }
