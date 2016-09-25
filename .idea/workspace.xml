@@ -9,11 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e3c5fe66-5a35-471f-9074-4f1938896ca6" name="Default" comment="added last Territories, Continents and World&#10;corected Typos">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/ContinentEnum.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/ContinentEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Continents.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Continents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territory.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/World.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/World.java" />
     </list>
     <ignored path="RisikoOnline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -652,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474829875956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added last Territories, Continents and World&#10;corected Typos">
+      <created>1474839297035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474839297035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
