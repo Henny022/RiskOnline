@@ -7,8 +7,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="e3c5fe66-5a35-471f-9074-4f1938896ca6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/risk-colored-small.jpg" />
+    <list default="true" readonly="true" id="e3c5fe66-5a35-471f-9074-4f1938896ca6" name="Default" comment="corrected typo">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java" afterPath="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java" />
     </list>
@@ -56,17 +56,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Territories.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Territories.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="48" column="125" selection-start-line="48" selection-start-column="125" selection-end-line="48" selection-end-column="125" />
+            <state relative-caret-position="510">
+              <caret line="159" column="57" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="risk-colored-small.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="risk-colored-small.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/risk-colored-small.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -76,8 +76,8 @@
       <file leaf-file-name="TerritoryEnum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/TerritoryEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="476">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -88,7 +88,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-              <folding />
+              <folding>
+                <element signature="e#622#623#0" expanded="false" />
+                <element signature="e#658#659#0" expanded="false" />
+                <element signature="e#693#694#0" expanded="false" />
+                <element signature="e#720#721#0" expanded="false" />
+                <element signature="e#756#757#0" expanded="false" />
+                <element signature="e#784#785#0" expanded="false" />
+                <element signature="e#830#831#0" expanded="false" />
+                <element signature="e#864#865#0" expanded="false" />
+                <element signature="e#918#919#0" expanded="false" />
+                <element signature="e#951#952#0" expanded="false" />
+                <element signature="e#1004#1005#0" expanded="false" />
+                <element signature="e#1048#1049#0" expanded="false" />
+                <element signature="e#1086#1087#0" expanded="false" />
+                <element signature="e#1119#1120#0" expanded="false" />
+                <element signature="e#1173#1174#0" expanded="false" />
+                <element signature="e#1251#1252#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +162,7 @@
         <option value="$PROJECT_DIR$/Game/src/de/henny022/RisikoOnline/Territories/Territory.java" />
         <option value="$PROJECT_DIR$/Game/src/de/henny022/RisikoOnline/Territories/Continent.java" />
         <option value="$PROJECT_DIR$/Game/src/de/henny022/RisikoOnline/Territories/Territories.java" />
+        <option value="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/TerritoryEnum.java" />
         <option value="$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java" />
       </list>
     </option>
@@ -553,7 +571,21 @@
       <option name="project" value="LOCAL" />
       <updated>1474737844080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added more Territories and a Map png">
+      <created>1474821910941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474821910941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="corrected typo in north africa">
+      <created>1474825224968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474825224968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,7 +631,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added last project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added last project files" />
+    <MESSAGE value="added more Territories and a Map png" />
+    <MESSAGE value="corrected typo in north africa" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected typo in north africa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -658,7 +692,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +761,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +830,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +1031,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -966,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/TerritoryEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/space">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,10 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java">
+    <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/TerritoryEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="48" column="125" selection-start-line="48" selection-start-column="125" selection-end-line="48" selection-end-column="125" />
+        <state relative-caret-position="476">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -992,6 +1086,14 @@
     <entry file="file://$PROJECT_DIR$/risk-colored-small.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/src/de/henny022/RiskOnline/Territories/Territories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="159" column="57" selection-start-line="159" selection-start-column="57" selection-end-line="159" selection-end-column="57" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -1053,6 +1155,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
