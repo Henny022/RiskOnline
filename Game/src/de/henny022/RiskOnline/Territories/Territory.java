@@ -10,10 +10,10 @@ public class Territory
     private TerritoryEnum territoryEnum;
     private String name;
     private String owner;
-    private List<TerritoryEnum> neighbours;
+    private List<Territory> neighbours;
     private int troupCount;
 
-    public Territory(TerritoryEnum territoryEnum, String name, List<TerritoryEnum> neighbours)
+    public Territory(TerritoryEnum territoryEnum, String name, List<Territory> neighbours)
     {
         this.territoryEnum = territoryEnum;
         this.name = name;
@@ -42,19 +42,19 @@ public class Territory
         this.owner = owner;
     }
 
-    public List<TerritoryEnum> getNeighbours()
+    public List<Territory> getNeighbours()
     {
         return neighbours;
-    }
-
-    public void setTroupCount(int troupCount)
-    {
-        this.troupCount = troupCount;
     }
 
     public int getTroupCount()
     {
         return troupCount;
+    }
+
+    public void setTroupCount(int troupCount)
+    {
+        this.troupCount = troupCount;
     }
 
     public boolean equals(Territory territory)

@@ -5,10 +5,10 @@ package de.henny022.RiskOnline.Territories;
  */
 public enum ContinentEnum
 {
-    NORTHAMERIKA,
-    SOUTHAMERIKA,
+    NORTH_AMERIKA,
+    SOUTH_AMERIKA,
     EUROPE,
-    AFRIKA,
+    AFRICA,
     ASIA,
     AUSTRALIA
 }

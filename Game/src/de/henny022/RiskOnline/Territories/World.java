@@ -8,17 +8,22 @@ import java.util.List;
  */
 public class World
 {
-    private List<Continent> continents;
-
     private static World ourInstance = new World();
-
-    public static World getInstance()
-    {
-        return ourInstance;
-    }
+    private List<Continent> continents;
 
     private World()
     {
         continents = new ArrayList<>(6);
+        continents.add(Continents.NORTH_AMERICA);
+        continents.add(Continents.SOUTH_AMERICA);
+        continents.add(Continents.EUROPE);
+        continents.add(Continents.AFRICA);
+        continents.add(Continents.ASIA);
+        continents.add(Continents.AUSTRALIA);
+    }
+
+    public static World getInstance()
+    {
+        return ourInstance;
     }
 }
