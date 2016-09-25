@@ -169,4 +169,5 @@ public class Territories
                                                                 TerritoryEnum.SOUTHERN_EUROPE, TerritoryEnum.MIDDLE_EAST
                                                   )
     );
+    
 }
