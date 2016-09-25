@@ -32,7 +32,7 @@ public enum TerritoryEnum
     WESTERN_EUROPE,
 
     //Afrika
-    NORTH_AFRIKA,
+    NORTH_AFRICA,
     EGYPT,
     EAST_AFRICA,
     CONGO,
