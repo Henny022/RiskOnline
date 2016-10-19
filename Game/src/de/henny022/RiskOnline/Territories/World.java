@@ -8,18 +8,48 @@ import java.util.Map;
  */
 public class World
 {
-    private static World ourInstance = new World();
-
-    public static World getInstance()
-    {
-        return ourInstance;
-    }
-
-    private Map<ETerritory, Territory> territories = new HashMap<>();
+    private static World instance = new World();
     private Map<EContinent, Continent> continents = new HashMap<>();
+    private Map<ETerritory, Territory> territories = new HashMap<>();
 
     private World()
     {
     }
 
+    public static World getInstance()
+    {
+        return instance;
+    }
+
+    /**
+     * Used to convert a EContinent to a Continent
+     *
+     * @param eContinent
+     * @return the Continent Object matching the Enum
+     */
+    public Continent getContinentByEnum(EContinent eContinent)
+    {
+        return continents.get(eContinent);
+    }
+
+    /**
+     * Used to convert a ETerritory to a Territory
+     *
+     * @param eTerritory
+     * @return the Territory Object matching the Enum
+     */
+    public Continent getTerritoryByEnum(ETerritory eTerritory)
+    {
+        return continents.get(eTerritory);
+    }
+
+    public Map<EContinent, Continent> getContinents()
+    {
+        return continents;
+    }
+
+    public Map<ETerritory, Territory> getTerritories()
+    {
+        return territories;
+    }
 }
