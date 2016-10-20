@@ -21,9 +21,20 @@ public class Territory
         this.occupier = "Noone";
     }
 
+    public void addNeighbour(ETerritory territory) {
+        neighbours.add(territory);
+    }
+
+    public List<ETerritory> getNeighbours() {
+        return neighbours;
+    }
+
     public int modifyTroupCount(int difference)
     {
         troupCount = troupCount + difference;
+        if (troupCount == 0) {
+            troupCount = 0;
+        }
         return troupCount;
     }
 

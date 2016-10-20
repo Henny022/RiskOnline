@@ -5,4 +5,10 @@ package de.henny022.RiskOnline.Territories;
  */
 public enum EContinent
 {
+    NORTH_AMERICA,
+    SOUTH_AMERICA,
+    AFRICA,
+    EUROPE,
+    ASIA,
+    AUSTRALIA
 }

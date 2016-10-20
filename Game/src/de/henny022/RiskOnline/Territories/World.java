@@ -14,6 +14,7 @@ public class World
 
     private World()
     {
+        continents.put(EContinent.NORTH_AMERICA, new Continent(EContinent.NORTH_AMERICA, "North America", 5));
     }
 
     public static World getInstance()
