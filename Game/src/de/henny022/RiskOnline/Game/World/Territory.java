@@ -1,4 +1,4 @@
-package de.henny022.RiskOnline.Territories;
+package de.henny022.RiskOnline.Game.World;
 
 import java.util.List;
 

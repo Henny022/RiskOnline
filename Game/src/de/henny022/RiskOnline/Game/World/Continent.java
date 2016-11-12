@@ -1,4 +1,4 @@
-package de.henny022.RiskOnline.Territories;
+package de.henny022.RiskOnline.Game.World;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class Continent
     /**
      * Returns the occupier of Continent
      *
-     * @return Occupier of the Territories if they all belong to the same person
+     * @return Occupier of the World if they all belong to the same person
      * "Noone" otherwise
      */
     public String getOccupier()

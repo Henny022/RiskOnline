@@ -19,6 +19,11 @@ public class ChatServer extends Server
     @Override
     public void preStart()
     {
+        registerMethods();
+    }
+
+    private void registerMethods()
+    {
         registerMethod("CHATMESSAGE", new Executable() {
             @Override
             public void run(Datapackage msg, Socket socket) {

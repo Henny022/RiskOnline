@@ -9,12 +9,13 @@ public class GameClient extends Client
 {
     public GameClient(String address, int port, int timeout) {
         super(address, port, timeout, false, false);
-        registerMehods();
+        registerMethods();
         start();
     }
 
-    private void registerMehods()
+    private void registerMethods()
     {
 
     }
+
 }

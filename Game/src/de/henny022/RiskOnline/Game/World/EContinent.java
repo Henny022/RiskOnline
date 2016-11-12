@@ -1,4 +1,4 @@
-package de.henny022.RiskOnline.Territories;
+package de.henny022.RiskOnline.Game.World;
 
 /**
  * Created by henny on 14.10.16.
