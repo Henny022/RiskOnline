@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Game" exported="" />
     <orderEntry type="library" exported="" name="SimpleFileStorage" level="project" />
+    <orderEntry type="library" exported="" name="SimpleServerClient" level="project" />
   </component>
 </module>
