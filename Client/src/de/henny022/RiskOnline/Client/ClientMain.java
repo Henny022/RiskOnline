@@ -1,4 +1,4 @@
-package de.henny022.RiskOnline;
+package de.henny022.RiskOnline.Client;
 
 /**
  * Created by henny on 24.09.16.

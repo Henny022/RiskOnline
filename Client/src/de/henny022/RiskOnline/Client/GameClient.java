@@ -1,4 +1,4 @@
-package de.henny022.RiskOnline;
+package de.henny022.RiskOnline.Client;
 
 import com.blogspot.debukkitsblog.Util.Client;
 
